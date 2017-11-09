@@ -1,0 +1,19 @@
+/* @media queries */
+
+/* Obscenely Larger Screens */
+@media screen and ( min-width: 1600px ) {
+	body { font-size: 18px; }
+	.home #top h1 { font-size: 6rem; }
+}
+
+
+/* Text overlaps image */
+@media screen and ( max-width: 1400px ) {
+		#top header, #top nav{ background: rgba(255,255,255,0.8);  }
+		nav ul li a { opacity: 0.8; }
+}
+
+/* Larger Screens */
+@media screen and ( min-width: 641px ) {
+	.home #top h1, .home #top p { text-indent: 3rem; }
+}
