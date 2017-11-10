@@ -3,6 +3,8 @@ body { font-family: "Georgia", Georgia, serif; }
 
 h1, h2, h3, h4 { font-family: "Georgia", Georgia, serif; }
 
+nav { text-align: center; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; transition: all .5s ease-in-out;}
+
 
 /* @media queries */
 
