@@ -14,7 +14,7 @@ article { font-size: 1rem; letter-spacing: 0.04em; }
 /* @Layout */
 #top { padding: 4em }
 
-nav ul { position:fixed; list-style-type: none; }
+nav ul { position: fixed; list-style-type: none; }
 nav ul li { padding: 1em; display: inline-block; }
 
 h1 { position: fixed; padding-bottom: 0px; }
