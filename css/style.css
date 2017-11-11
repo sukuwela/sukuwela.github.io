@@ -1,3 +1,4 @@
+/* @Typography */
 body { font-family: "Raleway", sans-serif; }
 
 h1 { font-family: "Playfair Display", serif; font-size: 5rem; font-weight: bold; font-style: italic; }
@@ -31,40 +32,42 @@ article { text-align: justify }
 
 img { display: block; margin: auto; padding-top: 4em; padding-bottom: 0em; }
 
- 
+
+
 /* @media queries */
 
 /* Smallest, Phones */
 @media screen and (max-width: 479px) {
-	body { background-color: blue; }
+body { background-color: blue; }
 	#top { padding: 0em; }
-	h1 { font-size: 2em; padding-top: 4em; padding-left: 1em; text-align: center; 
+	h1 { font-size: 2em; padding-top: 4em; padding-left: 1em; padding-bottom: 0em; text-align: center; 
     }
 	h2{
 		font-size: 1.5em;
 	}
     nav ul { background-color: white; padding-left: 1em; text-align: center; }
     nav ul li { display: inline-block; }
-    nav ul li a { padding: 0.3em; font-size: 0.8em; }
+    nav ul li a { padding: 0.4em; font-size: 0.8em; }
     article { font-size: 0.8rem; }
-    section { padding-left: 1.4em; padding-right: 1.4em; padding-bottom: 3em; }
-	
- #top img { max-width: 80%; display: block; margin: auto; padding-top: 4em; padding-bottom: 0em; }
-    
+    section { padding: 1.4em; }
+    #top img { max-width: 80%; display: block; margin: auto; padding-top: 4em; padding-bottom: 0em; }
 }
 
  /* For tablets: */
 @media only screen and (min-width: 600px) {
-	body { background-color: red; }
-    nav ul li a { padding: 1em; font-size: 1em; }
+body { background-color: red; }
+    nav ul li a { padding: 0em; font-size: 1em; }
     #top img { max-width: 80%; }
     h1 { font-size: 3em; }
     h2 { font-size: 2em; }
     article { font-size: 1em; }
-    section { padding: 1em; }
+    section { padding-left: 3em; padding-right: 3em; padding-top: 4em; }
 }
 
 @media only screen and (min-width: 768px) {
-	#top img { max-width: 100% }
+	body { background-color: white; }
+    nav ul li a { padding: 1em; font-size: 1.2em; }
+    h1 { font-size: 4em; }
+    section { padding: 6em; }
+	
 }
-
