@@ -44,7 +44,7 @@ img { display: block; margin: auto; padding-top: 4em; padding-bottom: 0em; }
 	}
     nav ul { background-color: white; padding-left: 1em; text-align: center; }
     nav ul li { display: inline-block; }
-    nav ul li a { padding: 0.3em; font-size: 0.8em; }
+    nav ul li a { padding: 0.3em; font-size: 1em; }
     article { font-size: 0.8rem; }
     section { padding-left: 1.4em; padding-right: 1.4em; padding-bottom: 3em; }
 	
