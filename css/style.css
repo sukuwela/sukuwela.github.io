@@ -25,9 +25,9 @@ article { text-align: justify }
 #projects ul { list-style-type: none; }
 #contact ul { list-style-type: none; }
 
-img { max-width: 100%; height: auto; margin: auto; }
+img { max-width: 100%; height: auto; margin: auto; display: block; float: right; }
 
-
+ 
 /* @media queries */
 
 /* Smallest, Phones */
