@@ -29,7 +29,7 @@ article { text-align: justify }
 #projects ul { list-style-type: none; }
 #contact ul { list-style-type: none; }
 
-#about img { max-width: 100%; display: block; margin: auto; padding-top: 4em; }
+#top img { max-width: 100%; display: block; margin: auto; padding-top: 4em; }
 
  
 /* @media queries */
