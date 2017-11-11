@@ -12,7 +12,8 @@ article { font-size: 1rem; letter-spacing: 0.04em; }
 #top { padding: 3em }
 
 nav { text-align: center; }
-nav ul { background-color: white; list-style-type: none; position: fixed; margin: 0; top: 0em; left: 1em; right: 1em; }
+nav ul { background-color: white; list-style-type: none; position: fixed; margin: 0; top: 0em; left: 1em; right: 1em; border: 1em solid
+white; }
 nav ul li { padding: 0.5em; display: inline-block; }
 
 h2 { text-align: center; }
