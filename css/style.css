@@ -53,15 +53,16 @@ img { display: block; margin: auto; padding-top: 4em; padding-bottom: 0em; }
     
 }
 
- /* For tablets: *//*
+ /* For tablets: */
 @media only screen and (min-width: 600px) {
+	body { background-color: red; }
     nav ul li a { padding: 1em; font-size: 1em; }
     #top img { max-width: 80%; }
     h1 { font-size: 3em; }
     h2 { font-size: 2em; }
     article { font-size: 1em; }
     section { padding: 1em; }
-}*/
+}
 
 @media only screen and (min-width: 768px) {
 	#top img { max-width: 100% }
