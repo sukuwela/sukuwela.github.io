@@ -72,37 +72,53 @@ article { text-align: justify; }
 
 /* @media queries */
 
-/* For mobile phones: */
-[class*="col-"] {
-    width: 100%;
+/* Obscenely Larger Screens */
+@media screen and ( min-width: 1600px ) {
+	body { font-size: 18px; }
+	.home #top h1 { font-size: 6rem; }
 }
-@media only screen and (min-width: 600px) {
-    /* For tablets: */
-    .col-m-1 {width: 8.33%;}
-    .col-m-2 {width: 16.66%;}
-    .col-m-3 {width: 25%;}
-    .col-m-4 {width: 33.33%;}
-    .col-m-5 {width: 41.66%;}
-    .col-m-6 {width: 50%;}
-    .col-m-7 {width: 58.33%;}
-    .col-m-8 {width: 66.66%;}
-    .col-m-9 {width: 75%;}
-    .col-m-10 {width: 83.33%;}
-    .col-m-11 {width: 91.66%;}
-    .col-m-12 {width: 100%;}
+
+
+/* Text overlaps image */
+@media screen and ( max-width: 1400px ) {
+		#top header, #top nav{ background: rgba(255,255,255,0.8);  }
+		nav ul li a { opacity: 0.8; }
 }
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
+
+/* Larger Screens */
+@media screen and ( min-width: 641px ) {
+	.home #top h1, .home #top p { text-indent: 3rem; }
+}
+
+
+/* Mobile Phones */
+@media screen and ( max-width: 640px ) {
+	body.home #top { background-attachment: scroll; }
+	body { font-size: 16px;}
+	#top nav { padding: 1em 0; }
+	h1, h2 { font-size: 2rem; text-indent: 0;}
+	h3 { font-size: 1.5rem; }
+	section header { padding: 1rem 0; }
+	header h1 { font-size: 2.5rem; margin: 4rem auto 1rem; max-width: 85%; }
+	header h2 { font-size: 2.5rem; }
+	header p { max-width: 75%; margin: 0 auto; }
+	body.home #top { text-align: center; margin: 0 auto;  }
+	body.home #top h1 { margin: 0 auto 1rem; }
+	#top p, blockquote, p { font-size: 1.1rem; }
+	header * { text-align: center; }
+	nav ul li { padding: 0 0.5rem; }
+	nav ul li a { font-size: 0.8rem; }
+	#top nav.stick { background-color: rgba(255,255,255,0.9) }
+	nav.stick ul li { padding: 0.5rem }
+	nav a.breadcrumb { display: block; padding: 0.25rem 0.5rem 0.5rem; font-size: 0.8rem; }
+	#about aside { font-size: 0.8rem; }
+	.skills li { font-size: 0.8rem; }
+	#work figure.row { margin-left: 0.5em;  margin-right: 0.5em;}
+	#work figure h3 { line-height: 1.2;}
+	#work figure p { line-height: 1.2; font-size: 1rem;}
+	figcaption { padding-left: 0.5rem; padding-right: 0.5rem; }
+	#top, #retrospective,
+	#about, #definition, 
+	#work, #approach,
+	#contact, #solution { border-left-width: 2px; border-right-width: 2px; }
 }
