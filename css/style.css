@@ -31,14 +31,14 @@ article { text-align: justify }
 /* Smallest, Phones */
 @media screen and (max-width: 479px) {
 	#top { padding: 0em; }
-	h1 { font-size: 1.45em; padding-top: 4em; padding-left: 1em; text-align: left; 
+	h1 { font-size: 1.5em; padding-top: 4em; padding-left: 1em; text-align: left; 
     }
 	h2{
 		font-size: 1.5em;
 	}
     nav ul { background-color: white; padding-left: 1em; text-align: center; }
     nav ul li { display: inline-block; }
-    nav ul li a { padding: 0.3em; font-size: 0.8em; }
+    nav ul li a { padding: 0.3em; font-size: 1em; }
     article { font-size: 0.8rem; }
     section { padding: 1.4em; }
     
