@@ -52,12 +52,8 @@ article { text-align: justify }
     
 }
 
-/* Medium, Desktop/Laptop Screens */
-@media only screen and (min-width: 768px) {
-    #top { padding: 3em }
-#about h2 { padding-top: 0em; }
-section { padding-top: 4em; padding-right: 8em; padding-left: 8em; }
-
-article { text-align: justify }
-
+ /* For tablets: */
+@media only screen and (min-width: 600px) {
+    nav ul li a { padding: 1em; font-size: 1.2em; }
+    #top img { max-width: 60%; }
 }
