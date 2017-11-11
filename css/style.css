@@ -48,6 +48,6 @@ article { text-align: justify }
     article { font-size: 0.8rem; }
     section { padding: 1.4em; }
 	
- #about img { max-width: 80%; display: block; margin: auto; padding-top: 4em; padding-bottom: 0em; }
+ #top img { max-width: 80%; display: block; margin: auto; padding-top: 4em; padding-bottom: 0em; }
     
 }
