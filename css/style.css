@@ -55,7 +55,7 @@ body { background-color: blue; }
 
  /* For tablets: */
 @media only screen and (min-width: 600px) {
-body { background-color: red; }
+body { background-color: green; }
     nav ul li a { padding: 0em; font-size: 1em; }
     #top img { max-width: 80%; }
     h1 { font-size: 3em; }
