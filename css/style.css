@@ -25,6 +25,7 @@ section { padding: 4em }
 
 article { text-align: justify }
 
+#about h2 { padding-top: 0em; }
 #projects ul { list-style-type: none; }
 #contact ul { list-style-type: none; }
 
