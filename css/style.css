@@ -14,7 +14,10 @@ article { font-size: 1rem; letter-spacing: 0.04em; }
 /* @Layout */
 #top { padding: 4em }
 
-nav ul { position: fixed; list-style-type: none; }
+nav ul { position: fixed; list-style-type: none; bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;}
 nav ul li { padding: 1em; display: inline-block; }
 
 h2 { padding-top: 0px; text-align: center; }
