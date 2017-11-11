@@ -20,7 +20,11 @@ nav ul li { padding: 1em; display: inline-block; }
 h1 { position: fixed; padding-bottom: 0px; }
 h2 { padding-top: 0px; text-align: center; }
 
+section { padding: 4em }
+
 article { text-align: justify; }
+
+
 
 
 
