@@ -25,6 +25,7 @@ article { text-align: justify }
 #projects ul { list-style-type: none; }
 #contact ul { list-style-type: none; }
 
+img { max-width: 100%; height: auto; margin: auto; }
 
 
 /* @media queries */
