@@ -29,7 +29,7 @@ article { text-align: justify }
 #projects ul { list-style-type: none; }
 #contact ul { list-style-type: none; }
 
-img { display: block; margin: auto; padding-top: 4em; }
+#about img { max-width: 100%; display: block; margin: auto; padding-top: 4em; }
 
  
 /* @media queries */
@@ -48,6 +48,6 @@ img { display: block; margin: auto; padding-top: 4em; }
     article { font-size: 0.8rem; }
     section { padding: 1.4em; }
 	
-#top img { display: block; margin: auto; padding-top: 4em; padding-bottom: 0em; }
+ #about img { display: block; margin: auto; padding-top: 4em; padding-bottom: 0em; }
     
 }
