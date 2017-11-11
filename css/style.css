@@ -21,7 +21,7 @@ nav ul li { padding: 0.5em; display: inline-block; }
 h1 { text-align: center; }
 h2 { text-align: center; }
 
-section { padding: 8em }
+section { padding-top: 4em; padding-right: 8em; padding-left: 8em; }
 
 article { text-align: justify }
 
@@ -56,7 +56,7 @@ article { text-align: justify }
 @media only screen and (min-width: 768px) {
     #top { padding: 3em }
 
-section { padding: 7em }
+section { padding-top: 4em; padding-right: 8em; padding-left: 8em; }
 
 article { text-align: justify }
 
