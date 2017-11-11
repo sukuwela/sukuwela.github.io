@@ -82,7 +82,26 @@
 		  </ul>
 	  </section>
 		  
-	<script type="text/js" src="/js/ScrollToPlugin.min.js"></script>
+	<form class="move">
+	<fieldset>
+		<legend>Anchor Links</legend>
+		<p><a href="#top">Top</a></p>
+		<p><a href="#middle">Middle</a></p>
+		<p><a href="#bottom">Bottom</a></p>
+	</fieldset>
+</form>
+<a id="top"></a>
+<div class="spacer s1"></div>
+<a id="middle"></a>
+<div class="spacer s1"></div>
+<a id="bottom"></a>
+<div class="spacer s0"></div>
+<div id="animate" class="box1 blue">
+	<p>Peek-a-boo!</p>
+	<a href="#" class="viewsource">view source</a>
+</div>
+<div class="spacer s2"></div>
+<script type="text/javascript" src="/js/ScrollToPlugin.min.js"></script>
 <script>
 	// init controller
 	var controller = new ScrollMagic.Controller();
