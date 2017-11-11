@@ -1,7 +1,9 @@
-body { font-family: "Helvetica", Helvetica, sans serif; }
+body { font-family: "Raleway", sans-serif; }
 
-h2, h3, h4 { font-family: "Helvetica", Helvetica, sans serif; }
-h1 { font-family: "Helvetica", Times, serif; font-size: 5rem; }
+h1 { font-family: "Playfair Display", serif; font-size: 5rem; font-weight: bold; font-style: italic; }
+h3, h4 { font-family: "Raleway", Helvetica, sans serif; }
+h2 { font-family: "Playfair Display", serif; font-size: 4rem; font-weight: 100; }
+nav { font-family: "Playfair Display", serif; }
 h2 { font-size: 3rem; font-weight: 100; letter-spacing: 0.07em; text-transform: lowercase }
 
 nav ul li a { font-size: 1rem; font-weight: 100; letter-spacing: 0.07em; color: black; padding: 0 em; text-transform: lowercase; }
@@ -26,7 +28,7 @@ article { text-align: justify }
 #projects ul { list-style-type: none; }
 #contact ul { list-style-type: none; }
 
-img { max-width: 100%; height: auto; margin: auto; display: block; }
+img { display: block; margin: auto; padding-top: 4em; }
 
  
 /* @media queries */
