@@ -12,7 +12,7 @@ nav ul li a { font-size: 1rem; font-weight: 100; letter-spacing: 0.07em; color: 
 article { font-size: 1rem; letter-spacing: 0.04em; }
 
 a:hover {
-	color: cyan;
+	color: #7FDBFF;
 }
 
 a:active {
