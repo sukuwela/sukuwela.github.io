@@ -27,8 +27,8 @@ article { text-align: justify }
 
 
 #about h2 { padding-top: 0em; }
-#contact ul { list-style-type: none; text-align: center; }
-#contact ul li { display: inline-block; padding: 0.5em; }
+#contact ul { list-style-type: none; text-align: center; padding-left: 1em; }
+#contact ul li { display: inline-block; padding: 1em; }
 
 img { display: block; margin: auto; padding-top: 4em; padding-bottom: 0em; }
 
