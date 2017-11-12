@@ -18,7 +18,7 @@ nav { text-align: center; }
 nav ul { background-color: white; list-style-type: none; position: fixed; margin: 0; top: 0em; left: 1em; right: 1em; border: 1em solid white; }
 nav ul li { padding: 1em; display: inline-block; }
 
-h1 { font-size: 4em; text-align: center; }
+h1 { font-size: 4em; text-align: center; padding-bottom: 0em; }
 h2 { text-align: center; }
 
 section { padding-top: 4em; padding-right: 8em; padding-left: 8em; }
