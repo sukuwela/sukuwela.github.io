@@ -27,7 +27,6 @@ article { text-align: justify }
 
 
 #about h2 { padding-top: 0em; }
-#projects ul { list-style-type: none; }
 #contact ul { list-style-type: none; text-align: center; }
 #contact ul li { display: inline-block; padding: 0.5em; }
 
