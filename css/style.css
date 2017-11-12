@@ -50,6 +50,7 @@ img { display: block; margin: auto; padding-top: 4em; padding-bottom: 0em; }
     article { font-size: 0.8rem; }
     section { padding: 1.4em; }
     #top img { max-width: 80%; display: block; margin: auto; padding-top: 4em; padding-bottom: 0em; }
+	#projects img { max-width: 80% }
 }
 
  /* For tablets: */
@@ -60,6 +61,7 @@ img { display: block; margin: auto; padding-top: 4em; padding-bottom: 0em; }
     h2 { font-size: 2em; }
     article { font-size: 1em; }
     section { padding-left: 3em; padding-right: 3em; padding-top: 4em; }
+	#projects img { max-width: 80% }
 }
 
 @media only screen and (min-width: 768px) {
@@ -79,7 +81,8 @@ article { text-align: justify }
 
 #about h2 { padding-top: 0em; }
 #contact ul { list-style-type: none; }
-
+	#projects img { max-width: 80% }
 img { display: block; margin: auto; padding-top: 4em; padding-bottom: 0em; }
+
 	
 }
