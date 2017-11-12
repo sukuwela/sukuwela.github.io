@@ -54,7 +54,6 @@ img { display: block; margin: auto; padding-top: 4em; padding-bottom: 0em; }
 
  /* For tablets: */
 @media only screen and (min-width: 480px) {
-body { background-color: blue; }
     nav ul li a { padding: 0em; font-size: 1em; }
     #top img { max-width: 80%; }
     h1 { font-size: 3em; }
