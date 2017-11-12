@@ -28,11 +28,11 @@ article { text-align: justify }
 
 #contact ul { list-style-type: none; text-align: center; padding-bottom: 0em; padding-left: 1em; }
 #contact ul li { display: inline-block; padding: 1em; }
-#projects img { padding-top: 0em; }
+#projects img { padding-top: 1em; }
 #top img { display: block; margin: auto; padding-top: 0em; padding-bottom: 0em; }
 #funstuff summary { text-align: center; }
 
-/* @animations */
+/* @animations (taken from W3Schools)*/  
 .w3-animate-opacity{animation:opac 1.5s}@keyframes opac{from{opacity:0} to{opacity:1}}
 
 /* @media queries */
