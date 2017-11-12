@@ -32,6 +32,9 @@ article { text-align: justify }
 img { display: block; margin: auto; padding-top: 4em; padding-bottom: 0em; }
 #funstuff summary { text-align: center; }
 
+/* @animations */
+.fade-in-page-load{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+
 /* @media queries */
 
 /* Smallest, Phones */
