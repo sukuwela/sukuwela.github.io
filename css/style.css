@@ -51,7 +51,7 @@ article { text-align: justify }
     nav ul li a { padding: 0em; font-size: 0.8em; }
     article { font-size: 0.8rem; }
     section { padding-top: 3em; padding-left: 1.4em; padding-right: 1.4em; }
-    #top img { max-width: 80%; display: block; margin: auto; padding-top: 4em; padding-bottom: 0em; }
+    #top img { max-width: 80%; display: block; margin: auto; padding-top: 0em; padding-bottom: 0em; }
 	#projects img { max-width: 80% }
 }
 
