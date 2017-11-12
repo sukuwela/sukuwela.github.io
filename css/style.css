@@ -52,7 +52,7 @@ article { text-align: justify }
     article { font-size: 0.8rem; }
     section { padding-top: 3em; padding-left: 1.4em; padding-right: 1.4em; }
     #top img { max-width: 80%; display: block; margin: auto; padding-top: 0em; padding-bottom: 0em; }
-	#projects img { max-width: 80% }
+	#projects img { max-width: 80%; display: block; margin: auto; }
 }
 
  /* For tablets: */
@@ -63,7 +63,7 @@ article { text-align: justify }
     h2 { font-size: 2em; }
     article { font-size: 1em; }
     section { padding-left: 3em; padding-right: 3em; padding-top: 4em; }
-	#projects img { max-width: 80% }
+	#projects img { max-width: 80%; display: block; margin: auto; }
 }
 
 @media only screen and (min-width: 768px) {
