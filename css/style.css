@@ -1,16 +1,16 @@
 /* @Typography */
-body { font-family: "Raleway", sans-serif; }
+body { font-family: "Montserrat", sans-serif; }
 
 
-h1 { font-family: "Playfair Display", serif; font-size: 5rem; font-weight: bold; font-style: italic; }
-h3, h4 { font-family: "Playfair Display", serif; font-weight: 300; }
-h2 { font-family: "Playfair Display", serif; font-size: 4rem; font-weight: 100; }
-nav { font-family: "Playfair Display", serif; }
-h2 { font-size: 3rem; font-weight: 100; letter-spacing: 0.07em; text-transform: lowercase }
+h1 { font-family: "Heebo", sans-serif; font-size: 6.5rem; font-weight: bold; }
+h3 { font-family: "Heebo", sans-serif; font-weight: normal; }
+h2 { font-family: "Heebo", sans-serif; }
+nav { font-family: "Heebo", sans-serif; text-transform: uppercase; font-weight: lighter; }
+h2 { font-size: 3rem; font-weight: lighter; text-transform: uppercase }
 
-nav ul li a { font-size: 1rem; font-weight: 100; letter-spacing: 0.07em; color: black; padding: 0 em; text-transform: lowercase; }
 
-article { font-size: 1rem; letter-spacing: 0.04em; }
+#work h3 { font-weight: lighter; text-transform: uppercase; }
+#speaks h3 { text-transform: uppercase; }
 
 a:hover {
 	color: #ADD8E6;
@@ -20,80 +20,77 @@ a:active {
     color: #191970;
 } 
 
-/* @Layout */
-#top { padding: 3em;}
+nav ul li a { font-size: 1rem; font-weight: 100; letter-spacing: 0.07em; color: black; padding: 0 em; text-transform: lowercase; }
 
-nav { text-align: center; }
-nav ul { background-color: white; list-style-type: none; padding-left: 0 em; position: fixed; margin: 0; top: 0em; left: 1em; right: 1em; border: 1em solid white; }
+/*nav ul li a { font-size: 1rem; color: #2a2a2a; padding: 0.2em; border-bottom: solid 2px transparent; opacity: 0.5; }*/
+nav a:hover,
+/*nav a.active { opacity: 1; border-bottom-color: rgba(10,10,10,0.4); color: #4a4a4a; text-shadow: 2px 2px 1px rgba(189, 255, 228, 0.4); }
+nav ul li:focus a,
+nav ul li a:focus { border-bottom-color: transparent; color: #9a9a9a;}*/
+
+
+/* @Layout */
+
+/*nav ul { background-color: white; list-style-type: none; }
 nav ul li { padding: 1em; display: inline-block; }
 
-h1 { font-size: 4em; text-align: center; padding-bottom: 0em; margin-bottom: 0; }
+nav { left: 0; right: 0; position: fixed; top: 0; }
+nav { text-align: center; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; transition: all .5s ease-in-out;}*/
+
+nav { text-align: center; }
+nav ul { background-color: white; list-style-type: none; padding-left: 0 em; position: fixed; margin: 0; top: 0em; left: 1em; right: 1em; border-bottom-style: solid; }
+nav ul li { padding: 1em; display: inline-block;  }
+
+h1 { padding-top: 2.5em; margin-bottom: 0; }
+#top h3 { padding-bottom: 12em; }
 h2 { text-align: center; }
-#top h3 { text-align: center; }
-section { padding-top: 4em; padding-right: 8em; padding-left: 8em; }
 
-article { text-align: justify }
+#about h2 { padding-top: 2.5em; }
+#work h2 { padding-top: 2.5em; }
+#contact h2 { padding-top: 2.5em; }
 
+#jppi-erp, #ftc { border-bottom-style: solid; }
+#ftc, #jppi-erp { padding-top: 1em; padding-bottom: 1em; }
+#speaks { padding-top: 1em; }
+
+#jppi-erp img { align-content: center; }
+#speaks img { max-width: 96%; max-height: 96%; }
 
 #contact ul { list-style-type: none; text-align: center; padding-bottom: 0em; padding-left: 1em; }
-#contact ul li { display: inline-block; padding: 1em; }
-#projects img { padding-top: 1em; }
-#top img { display: block; margin: auto; padding-top: 0em; padding-bottom: 0em; }
-#funstuff summary { text-align: center; }
-#contact img { padding-top: 0em; }
+#contact ul li { display: inline-block; padding-bottom: 4em; }
 
-/* @animations (taken from W3Schools)*/  
-.w3-animate-opacity{animation:opac 1.5s}@keyframes opac{from{opacity:0} to{opacity:1}}
-
-/* @media queries */
-
-/* Smallest, Phones */
-@media screen and (max-width: 479px) {
-	#top { padding: 0em; }
-	h1 { font-size: 2em; padding-top: 4em; padding-bottom: 0em; text-align: center; 
-    }
-	h2{
-		font-size: 1.5em;
-	}
-    nav ul { background-color: white; padding-left: 1em; text-align: center; border: 0em solid white;}
-    nav ul li { display: inline-block; }
-    nav ul li a { padding: 0em; font-size: 0.8em; }
-    article { font-size: 0.8rem; }
-    section { padding-top: 3em; padding-left: 1.4em; padding-right: 1.4em; }
-    #top img { max-width: 80%; display: block; margin: auto; padding-top: 0em; padding-bottom: 0em; }
-	#projects img { max-width: 80%; display: block; margin: auto; }
+.fade {
+  opacity: 1;
 }
 
- /* For tablets: */
-@media only screen and (min-width: 480px) {
-    nav ul li a { padding: 0em; font-size: 1em; }
-    #top img { max-width: 80%; }
-    h1 { font-size: 3em; }
-    h2 { font-size: 2em; }
-    article { font-size: 1em; }
-    section { padding-left: 3em; padding-right: 3em; padding-top: 4em; }
-	#projects img { max-width: 80%; display: block; margin: auto; }
+.speaks-business{
+  width:1000px;
+  margin: auto;
+  text-align: center;
+  padding:20px;
+  color:black;
+  .parent-slide{padding:15px;}
+  img{display: block;margin:auto;}
 }
 
-@media only screen and (min-width: 768px) {
-	#top { padding: 3em }
-
-nav { text-align: center; }
-nav ul { background-color: white; list-style-type: none; position: fixed; margin: 0; top: 0em; left: 1em; right: 1em; border: 1em solid white; }
-nav ul li { padding: 1em; display: inline-block; }
-
-h1 { font-size: 4em; text-align: center; }
-h2 { text-align: center; }
-
-section { padding-top: 4em; padding-right: 8em; padding-left: 8em; }
-
-article { text-align: justify }
-
-
-#about h2 { padding-top: 0em; }
-#contact ul { list-style-type: none; }
-	#projects img { max-width: 60% }
-img { display: block; margin: auto; padding-top: 4em; padding-bottom: 0em; }
-
-	
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
 }
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { ... }
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    h1 { padding-top: 2.5em; margin-bottom: 0; }
+    #top h3 { padding-bottom: 12em; }
+    
+}
+
+/* Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width */
