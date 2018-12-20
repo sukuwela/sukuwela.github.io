@@ -3,28 +3,30 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="/css/style.css">
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.3.11/slick.css"/>
-        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i|Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Heebo:300, 400|Montserrat" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Shanaya Ukuwela">
         <title>Speaks Application - Group Class Project</title>
     </head>
     
     <body class="speaks application">
+        <div class="container">
         <section id="top">
 		  <nav>
 			  <ul>
-				  <li><a href="https://sukuwela.github.io"><-Go Back</a></li>
+				  <li><a href="index.html"><-Go Back</a></li>
 				  <li><a href="#overview">Overview</a></li>
 				  <li><a href="#our-process">Our Process</a></li>
-				  <li><a href="#projects">Projects</a></li>
-				  <li><a href="#hobbies">Hobbies</a></li>
-				  <li><a href="#contact">Contact</a></li>
+                  <li><a href="#our-results">Our Results</a></li>
 			  </ul>
 		  </nav>
-			  <h2>Speaks Web Application - Group Class Project</h2>
-			  <img src="img/speaks/speaks_login.png" alt="Speaks Login Screen"/>
+            <header>
+			  <h1>Speaks Web App</h1>
+                <h3>Group Class Project</h3>
+            </header>
         </section>
         
         <section id="overview">
@@ -44,10 +46,17 @@
 				  <p><Strong>Final Product Prototype:</Strong> <a href="https://speaks.bitbucket.io/index.html"> Here </a></p>
                   <p><Strong>Full Report: </Strong><a href="Speaks%20App%20-%20INF134%20Final%20Project%20Report.pdf"> Here </a></p>
             </article>-->
-            <article>
-                <header><h2 class>Overview</h2></header>
-                <p>Children with autism have trouble identifying civil servants and service personnel: what purpose they serve, how they help the community, and what items/automobiles/tools they use and why.  We want to provide a product that helps these children identify the purpose of service workers and show that these children do not need to be afraid or anxious around them.  The Speaks app aims to familiarize children with autism with service personnel, the items or tools they use, and what services they provide to ease the children’s anxiety and confusion when they encounter these types of workers in their daily lives.</p>
+            <header><h2 class>Overview</h2></header>
+            <article class="row clearfix pt-3 pb-5 mb-5">
+                <div class="col text-center">
+                       <img src="img/speaks/speaks_web_home%20-%20Copy.png" alt="Speaks Login Screen" class="shadow"/>
+                  </div>
+                  <div class="col">
+                      <p>Children with autism have trouble identifying civil servants and service personnel: what purpose they serve, how they help the community, and what items/automobiles/tools they use and why.  We want to provide a product that helps these children identify the purpose of service workers and show that these children do not need to be afraid or anxious around them.  The Speaks app aims to familiarize children with autism with service personnel, the items or tools they use, and what services they provide to ease the children’s anxiety and confusion when they encounter these types of workers in their daily lives.</p>
+                </div>
+                </article>
                 <h2>The Challenge</h2>
+                <article class="row clearfix pt-3 pb-5 mb-5">
                 <p>When we started this project, we knew that designing an app for a child with autism wouldn't be easy. The autism spectrum is broad. Every child is at a different level, meaning that we couldn't just design a simple learning game for the average 4-year-old. But that was looking at the bigger picture. We had to start small to make progress, so we shrunk our user base, focusing on designing an app for those around the ages of 5 to 7.</p>
                 <p>Of course, there are apps on the market that cater towards our problem, but none that won't break the bank. Low-income families couldn't afford the $300 dollar apps that would help their child communicate. We realized that there was a need, we just had to create a plan to fulfill it.</p>                
             </article>
@@ -69,7 +78,7 @@
                 <img src="img/speaks/speaks_user_interview.png" alt="Speaks User Inteviews"/>
                 <h3>Initial Design</h3>
                 <p>Our initial designs of our application focused on a mobile version of the app, as we collectively found that most children are capable of using mobile devices as opposed to a desktop.</p>
-                <div id="speaks_paper"><img src="img/speaks/speaks_paper_prototype.jpg" alt="Speaks Paper Prototype"/></div>
+                <div id="speaks_paper"><img src="img/speaks/speaks_paper_prototype%20-%20Copy.jpg" alt="Speaks Paper Prototype"/></div>
                 <div id="speaks_marvel"><iframe src="https://marvelapp.com/2i6c984?emb=1&iosapp=false&frameless=false" width="300" height="800" allowTransparency="true" frameborder="0"></iframe></div>
                 <p>Seeing as we only had 10 weeks to flesh out this project, we were not able to have a fully-functional web application, however we  were able to test our product using an Invision prototype, with the base designs created in Figma, as well as a beta web application. We focused on designing our product for children, using bright colors and cartoon characters to make it engaging for children, limiting the amount of text on-screen for a more visual learning experience. Not only that, we made sure each question-and-answer game was short and concise, focusing on the key elements needed for that specific job type so that the children would quickly and easily understand what they look like and what they do.</p>
                 <h4>User Testing</h4>
@@ -86,27 +95,30 @@
         </section>
         
         
-    <!--code taken from Scroll function @ ucipaul.bitbucket.io/schedule.html -->	
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.3.11/slick.min.js"></script>
-    <script>
-        $(document).ready(function(){       
-            $('.speaks-business').slick({
-                dots: true,
-                infinite: true,
-                speed: 700,
-                autoplay:true,
-                autoplaySpeed: 2000,
-                arrows:false,
-                slidesToShow: 1,
-                slidesToScroll: 1
-             });
-
-        });
-    </script>
+          
+<!--code taken from Scroll function @ ucipaul.bitbucket.io/schedule.html -->	
+       
+          
+        
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script>
+          $(window).on("load",function() {
+          $(window).scroll(function() {
+            var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+            $(".fade").each(function() {
+              /* Check the location of each desired element */
+              var objectBottom = $(this).offset().top + $(this).outerHeight();
+
+              /* If the element is completely within bounds of the window, fade it in */
+              if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+                if ($(this).css("opacity")==0) {$(this).fadeTo(500,1);}
+              } // else { //object goes out of view (scrolling up)
+                //if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
+              //}
+            });
+          }).scroll(); //invoke scroll-handler on page-load
+        });
+        
 		$(".content a[href^='http://']").attr("target","_blank");
 		$(".content a[href^='https://']").attr("target","_blank");
 		$("a[href^='#']").on('click', function(e) {
@@ -123,6 +135,10 @@
 		     });
 
 		});
+        
+      
 	</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        </div>
     </body>
 </html>
