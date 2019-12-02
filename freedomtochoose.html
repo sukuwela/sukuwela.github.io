@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.3.11/slick.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i|Raleway" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Shanaya Ukuwela">
+        <title>Freedom to Choose Project - Website Re-Design</title>
+    </head>
+    
+    <body class="freedom-to-choose">
+        <section id="top">
+		  <nav>
+			  <ul>
+				  <li><a href="https://sukuwela.github.io"><-Go Back</a></li>
+				  <li><a href="#overview">Overview</a></li>
+				  <li><a href="#our-process">Our Process</a></li>
+				  <li><a href="#projects">Projects</a></li>
+				  <li><a href="#hobbies">Hobbies</a></li>
+				  <li><a href="#contact">Contact</a></li>
+			  </ul>
+		  </nav>
+			  <h2>Freedom to Choose Project - Website Re-Design</h2>
+			  <img src="img/speaks/speaks_login.png" alt="Speaks Login Screen"/>
+        </section>
+        
+        <section id="overview">
+            <article>
+                <header><h2 class>Overview</h2></header>
+                <p>Proper website design is crucial for The Freedom to Choose Project (FTC), a non-profit organization that aims to improve the lives of incarcerated individuals through educational workshops, events, and more. Working as part of the design team at Lab Coat Media, we were contacted by the pro-bono design company VeryNice to help redesign FTC's website into an engaging, interactive experience that attracts and appeals to various kinds of users.</p>
+                <h2>The Challenge</h2>
+                <p>The Freedom to Choose Project's current website contains plenty of information, however due to poor organization most of it is almost impossible to find. Not only that, FTC's Call-to-Action links to donate, volunteer and more are either missing or difficult to find. Moving forward, we found our key goals in this project were to:
+                    <li>Cultivate as well as maintain a larger number of donors and volunteers</li>
+                    <li>Increase the likelihood of receiving grants through easier navigation for grantors</li>
+                    <li>Increase participation in terms of volunteers, sponsors, etc. by explicitly defining who FTC is and what they do</li></p>               
+            </article>
+        </section>
+        
+        <section id="our-process">
+            <header><h2 class>Our Process</h2></header>
+            <article>
+                <h3>Initial Design Iterations</h3>
+                <p>Through a multiple design sprints and various meetings with FTC, our initial designs focused on creating a clear navigation bar where you could find all the important links FTC would like users to find. By clearly defining the multiple navigation tabs and including large "Donate" and "Volunteer" buttons, those interested in aiding FTC could do so quickly and easily. On the homepage, we decided to add a hero carousel showcasing FTC's various events and workshops, giving the user all the information they need when first visiting the website.</p>
+                <p>The various pages followed a similar format, with an introductory photo and title at the top of the clicked page.</p>
+                <h3>Visual Design</h3>
+                <h4>Style Guide</h4>
+                <p>After multiple iterations, we designed a Style Guide for the Visual Design of the website, drawing from FTC's original website. We aimed for light, minimal design, creating a color palette with muted colors of orange and purple to keep with the consistency of FTC's brand.</p>
+                <h4>Design Iterations</h4>
+                <p>Our designs played with white space, displaying the content in a minimal format. The purple-and-orange FTC colors are consistently displayed throughout the website, through headlines, blurbs and more.</p>
+            </article>
+        </section>
+        
+        <section id="our-results">
+            <header><h2>Our Results</h2></header>
+            <article>
+                <p>Re-designing The Freedom to Choose Project's website was no easy task, taking 4 months of design sprints to reach its final product. Through consistent discussion with FTC of each UX and Visual design iteration, we created a website that satisfies FTC and its user's needs.</p>
+            </article>
+        </section>
+        
+        
+    <!--code taken from Scroll function @ ucipaul.bitbucket.io/schedule.html -->	
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.3.11/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){       
+            $('.speaks-business').slick({
+                dots: true,
+                infinite: true,
+                speed: 700,
+                autoplay:true,
+                autoplaySpeed: 2000,
+                arrows:false,
+                slidesToShow: 1,
+                slidesToScroll: 1
+             });
+
+        });
+    </script>
+	<script>
+		$(".content a[href^='http://']").attr("target","_blank");
+		$(".content a[href^='https://']").attr("target","_blank");
+		$("a[href^='#']").on('click', function(e) {
+		   // prevent default anchor click behavior
+		   e.preventDefault();
+		   // store hash
+		   var hash = this.hash;
+		   // animate
+		   $('html, body').animate({
+		       scrollTop: $(hash).offset().top
+		     }, 600, function(){
+		       // when done, add hash to url
+		       window.location.hash = hash;
+		     });
+
+		});
+	</script>
+    </body>
+</html>
