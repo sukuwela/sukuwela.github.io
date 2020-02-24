@@ -1,17 +1,17 @@
 /* @Typography */
-body { font-family: "Tenor Sans", serif; font-size: 1.1rem; font-weight: 600; background-image: linear-gradient(to right, #E8B4BC, #FEFFFE); }
-
+body { font-family: 'Lato', serif; font-size: 1.1rem; font-weight: 400; background-image: linear-gradient(to right, #E8B4BC, #FEFFFE); }
+ 
 h1, h2, h3, nav { color: #0D1B2A; }
 
-h1 { font-family: "Kanit", sans-serif; font-size: 8.5rem; font-weight: 100; }
-h3 { font-family: "Tenor Sans", serif;  text-transform: lowercase; font-weight:800; }
-h2 { font-family: "Kanit", sans-serif; font-size: 5rem; text-transform: lowercase; }
-h4 { font-family: "Tenor Sans", serif; text-transform: lowercase; }
-nav { font-family: "Kanit", sans-serif; }
+h1 { font-family: "Lato", serif; font-size: 8.5rem; font-weight: 100; }
+h3 { font-family: 'Lato', serif; text-transform: lowercase; font-weight: 400;}
+h2 { font-family: 'Lato', serif; font-size: 5rem; text-transform: lowercase; font-weight: 400; }
+h4 { font-family: 'Lato', serif; text-transform: lowercase; }
+nav { font-family: 'Lato', serif; }
 
 
 /*Index*/
-#work h3 { font-size: 2.5rem; font-weight: 800; }
+#work h3 { font-size: 2.5rem; }
 
 a {
     color: black;
@@ -96,7 +96,7 @@ h2 { text-align: center; }
 }
 
 /*Index*/
-#top img { align-content: center; padding-bottom: 2em; }
+#about img { align-content: center; padding-bottom: 2em; }
 #jppi-erp img { align-content: center; }
 #speaks img { max-height: 100%; max-width: 100%; }
 
@@ -108,7 +108,7 @@ h2 { text-align: center; }
 #copyright { padding-bottom: 1em; }
 
 /*Speaks*/
-#overview img { }
+#overview img { padding-bottom: 1em;}
 
 
 
