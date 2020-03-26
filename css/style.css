@@ -2,12 +2,13 @@
 body { font-family: 'Lato', serif; font-size: 1.1rem; font-weight: 400; background-color: white; }
 p, a { color: #0D1B2A; }
 h1, h2, h3, nav { color: #0D1B2A; }
-
 h1 { font-family: 'Lato', serif; font-size: 8.5rem; font-weight: 100; }
 h3 { font-family: 'Lato', serif; text-transform: lowercase; }
 h2 { font-family: 'Lato', serif; font-size: 5rem; text-transform: lowercase; }
 h4 { font-family: 'Lato', serif; text-transform: lowercase; }
 nav { font-family: 'Lato', serif;  }
+
+figcaption { font-style: italic; padding-bottom: 1em; color: #696969; }
 
 
 /*Index*/
@@ -77,6 +78,25 @@ nav ul li { padding: 1em; display: inline-block;  }
 
 section { padding-top: 10em; }
 
+img { border: 1px solid #d3d3d3; }
+
+.tab { margin-left: 2.5em; }
+.doubletab { margin-left: 5em; }
+.tripletab { margin-left: 7.5em; }
+
+iframe {
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+border-radius: 1px;
+-moz-box-shadow: 4px 4px 14px #fff;
+-webkit-box-shadow: 4px 4px 14px #fff;
+box-shadow: 4px 4px 14px #fff;
+-moz-transform:rotate(0deg);
+-webkit-transform:rotate(0deg);
+-o-transform:rotate(0deg);
+-ms-transform:rotate(0deg);
+} 
+
 #top section h1 { padding-top 5em; }
 #speaks div {padding-top 5em; }
 h2 { text-align: center; }
@@ -106,7 +126,7 @@ h2 { text-align: center; }
 /* #work article:hover { background: #ffffff;  box-shadow: 0 2px 30px 2px hsla(5,5%,5%,.2); }*/
 
 /*Index*/
-#about img { align-content: center; padding-bottom: 2em; }
+#about img { align-content: center; padding-bottom: 2em; border: 0px; }
 #speaks img { max-height: 100%; max-width: 100%; }
 
 
@@ -116,8 +136,7 @@ h2 { text-align: center; }
 
 #copyright { padding-bottom: 1em; }
 
-/*Speaks*/
-#overview img { padding-bottom: 1em;}
+
 
 
 /* Extra small devices (portrait phones, less than 576px) */
