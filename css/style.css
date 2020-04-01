@@ -1,7 +1,9 @@
 /* @Typography */
 body { font-family: 'Lato', serif; font-size: 1.1rem; font-weight: 400; background-color: white; }
-p, a { color: #0D1B2A; }
-h1, h2, h3, nav { color: #0D1B2A; }
+p { color: #0D1B2A; line-height: 2; }
+a { color: #2C8277; }
+a:hover { color: #2C8277; font-weight: 600; }
+h1, h2, h3, nav { color: #0D1B2A; text-align: center; }
 h1 { font-family: 'Lato', serif; font-size: 8.5rem; font-weight: 100; }
 h3 { font-family: 'Lato', serif; text-transform: lowercase; }
 h2 { font-family: 'Lato', serif; font-size: 5rem; text-transform: lowercase; }
@@ -31,9 +33,12 @@ h2 {
   text-align: center;
 }
 
+
+
 nav a:hover,
 nav a:focus {
     color: #0D1B2A;
+    font-weight: 400; 
 	outline: none;
 }
 
@@ -102,11 +107,11 @@ box-shadow: 4px 4px 14px #fff;
 h2 { text-align: center; }
 
 .card { background: #ffffff; border-color:#fff; padding: 1em 2em; }
-.workcard { background: #ffffff; border: solid 1px aliceblue; padding: 1em 2em; }
+.workcard { background: #ffffff; border: solid 1px #f0f8ff; padding: 1em 2em; }
 
 /* animation by madebypaul.com */
-.workcard:hover { letter-spacing: 0.75px; background: #fff; border: solid 4px aliceblue; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; transition: all .5s ease-in-out; }
-#contact a:hover { color: #0D1B2A; letter-spacing: 0.75px; background: #fff; border: solid 2px aliceblue; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; transition: all .5s ease-in-out; }
+.workcard:hover { font-weight: 400; letter-spacing: 0.75px; background: #fff; border: solid 4px #f0f8ff; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; transition: all .5s ease-in-out; }
+#contact a:hover { color: #0D1B2A; letter-spacing: 0.75px; background: #fff; border: solid 2px #f0f8ff; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; transition: all .5s ease-in-out; }
 
 
 .fade {
@@ -123,6 +128,7 @@ h2 { text-align: center; }
   img{display: block; margin:auto;}
 }
 
+
 /* #work article:hover { background: #ffffff;  box-shadow: 0 2px 30px 2px hsla(5,5%,5%,.2); }*/
 
 /*Index*/
@@ -136,7 +142,9 @@ h2 { text-align: center; }
 
 #copyright { padding-bottom: 1em; }
 
-
+/*speaks*/
+#speaks-business img { border: 0; }
+#speaks-overview, #speaks-the-challenge, #speaks-our-process img { border: 0; }
 
 
 /* Extra small devices (portrait phones, less than 576px) */
