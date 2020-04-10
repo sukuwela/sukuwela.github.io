@@ -142,8 +142,8 @@ box-shadow: 4px 4px 14px #fff;
 
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 640px) { 
-    h1, h2 { font-size: 2.5rem; }
+@media (max-width: 576px) { 
+    h1 { font-size: 2.5rem; }
     #top, #overview h3 { font-size: 1rem;}
     nav { font-size: 1rem; }
     
