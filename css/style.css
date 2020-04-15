@@ -11,9 +11,11 @@ nav { font-family: 'Lato', serif; font-size: 1.35rem; }
 
 figcaption { font-style: italic; padding-bottom: 1em; color: #696969; }
 
+#contact i { font-size: 3rem; }
+
 
 /*Index*/
-#work h3 { font-size: 2.5rem; }
+#work h3 { font-size: 2rem; }
 
 
 h2 {
@@ -111,13 +113,12 @@ box-shadow: 4px 4px 14px #fff;
 
 #top section h1 { padding-top 6em; }
 
-.workcard { background: #ffffff; border: solid 1px #f0f8ff; padding: 1em 1.5em; }
+.card { background-image: url('../img/trianglify-lowres.png'); background-size: cover; background-repeat: no-repeat; border: solid 1px #f0f8ff; padding: 0.25em; }
 
 /* animation by madebypaul.com */
-.workcard:hover { font-weight: 400; letter-spacing: 0.75px; background: #fff; border: solid 4px #f0f8ff; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; transition: all .5s ease-in-out; }
-#contact a:hover { color: #0D1B2A; letter-spacing: 0.75px; background: #fff; border: solid 2px #f0f8ff; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; transition: all .5s ease-in-out; }
-
-
+.card:hover { font-weight: 400; letter-spacing: 0.25px; background-image: url('../img/trianglify-lowres.png'); background-size: cover;
+background-repeat: no-repeat; border: solid 4px #f0f8ff; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; transition: all .5s ease-in-out; }
+#contact a:hover { color: #0D1B2A; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; transition: all .5s ease-in-out; }
 
 
 
