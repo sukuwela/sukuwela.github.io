@@ -84,7 +84,7 @@ nav a:focus {
 
 
 /*Standard*/
-nav ul { background-color: white; list-style-type: none; padding-left: 0 em; position: fixed; margin: 0; top: 0em; left: 1em; right: 1em; }
+nav ul { background-color: white; list-style-type: none; position: fixed; margin: 0; top: 0em; left: 1em; right: 1em; }
 nav ul li { padding: 1em; display: inline-block;  }
 
 
@@ -111,7 +111,7 @@ box-shadow: 4px 4px 14px #fff;
 -ms-transform:rotate(0deg);
 } 
 
-#top section h1 { padding-top 6em; }
+#top h1 { padding-top 6em; }
 
 .card { background-image: url('../img/trianglify-lowres.png'); background-size: cover; background-repeat: no-repeat; border: solid 1px #f0f8ff; padding: 0.25em; }
 
