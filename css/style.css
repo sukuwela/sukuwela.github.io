@@ -1,18 +1,34 @@
 /* @Typography */
 body { font-family: 'Lato', serif; font-size: 1.1rem; font-weight: 400; background-color: white; }
-p, a { color: #0D1B2A; }
-h1, h2, h3, nav { color: #0D1B2A; }
+p { color: #0D1B2A; line-height: 2; text-align: justify; }
+
+h1, h2, h3, nav { color: #0D1B2A; text-align: center; }
 h1 { font-family: 'Lato', serif; font-size: 8.5rem; font-weight: 100; }
 h3 { font-family: 'Lato', serif; text-transform: lowercase; }
 h2 { font-family: 'Lato', serif; font-size: 5rem; text-transform: lowercase; }
 h4 { font-family: 'Lato', serif; text-transform: lowercase; }
-nav { font-family: 'Lato', serif;  }
+nav { font-family: 'Lato', serif; font-size: 1.35rem; }
 
 figcaption { font-style: italic; padding-bottom: 1em; color: #696969; }
 
+#contact i { font-size: 3rem; }
+
 
 /*Index*/
-#work h3 { font-size: 2.5rem; }
+#work h3 { font-size: 2rem; }
+
+
+h2 {
+  overflow: hidden;
+}
+
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 nav a {
 	position: relative;
@@ -22,13 +38,7 @@ nav a {
 	text-decoration: none;
 	text-transform: lowercase;
 	letter-spacing: 1px;
-	text-shadow: 0 0 1px rgba(255,255,255,0.3);
-	font-size: 1.2em;
-}
-
-h2 {
-  overflow: hidden;
-  text-align: center;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0);
 }
 
 nav a:hover,
@@ -37,7 +47,8 @@ nav a:focus {
 	outline: none;
 }
 
-/* Effect 3: bottom line slides/fades in. Effect courtesy of https://codepen.io/deniywn */ 
+
+/* Effect 3: bottom line slides/fades in. Effect courtesy of https://codepen.io/deniywn*/
 .cl-effect-3 a {
 	padding: 8px 0;
 }
@@ -72,17 +83,19 @@ nav a:focus {
 
 
 /*Standard*/
-nav { text-align: center; }
-nav ul { background-color: white; list-style-type: none; padding-left: 0 em; position: fixed; margin: 0; top: 0em; left: 1em; right: 1em; }
+nav ul { background-color: white; list-style-type: none; position: fixed; margin: 0; top: 0em; left: 1em; right: 1em; }
 nav ul li { padding: 1em; display: inline-block;  }
 
-section { padding-top: 10em; }
+
+section { padding-top: 12em; padding-bottom: 6em; }
 
 img { border: 1px solid #d3d3d3; }
 
 .tab { margin-left: 2.5em; }
 .doubletab { margin-left: 5em; }
 .tripletab { margin-left: 7.5em; }
+
+
 
 iframe {
 -moz-border-radius: 0px;
@@ -97,31 +110,18 @@ box-shadow: 4px 4px 14px #fff;
 -ms-transform:rotate(0deg);
 } 
 
-#top section h1 { padding-top 5em; }
-#speaks div {padding-top 5em; }
-h2 { text-align: center; }
+#top h1 { padding-top 6em; }
 
-.card { background: #ffffff; border-color:#fff; padding: 1em 2em; }
-.workcard { background: #ffffff; border: solid 1px aliceblue; padding: 1em 2em; }
+.card { background-image: url('../img/trianglify-lowres.png'); background-size: cover; background-repeat: no-repeat; border: solid 1px #f0f8ff; padding: 0.25em; }
 
 /* animation by madebypaul.com */
-.workcard:hover { letter-spacing: 0.75px; background: #fff; border: solid 4px aliceblue; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; transition: all .5s ease-in-out; }
-#contact a:hover { color: #0D1B2A; letter-spacing: 0.75px; background: #fff; border: solid 2px aliceblue; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; transition: all .5s ease-in-out; }
+.card:hover { font-weight: 400; letter-spacing: 0.25px; background-image: url('../img/trianglify-lowres.png'); background-size: cover;
+background-repeat: no-repeat; border: solid 4px #f0f8ff; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; transition: all .5s ease-in-out; }
+#contact a:hover { color: #0D1B2A; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; transition: all .5s ease-in-out; }
 
 
-.fade {
-  opacity: 1;
-}
 
-.speaks-business{
-  width:1000px;
-  margin: auto;
-  text-align: center;
-  padding:20px;
-  color:black;
-  .parent-slide{padding:15px;}
-  img{display: block; margin:auto;}
-}
+
 
 /* #work article:hover { background: #ffffff;  box-shadow: 0 2px 30px 2px hsla(5,5%,5%,.2); }*/
 
@@ -136,24 +136,36 @@ h2 { text-align: center; }
 
 #copyright { padding-bottom: 1em; }
 
-
+/*speaks*/
+#speaks-business img { border: 0; }
+#speaks-overview, #speaks-the-challenge, #speaks-our-process img { border: 0; }
 
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
+@media (max-width: 576px) { 
+    h1 { font-size: 2.5rem; }
+    #top, #overview h3 { font-size: 1rem;}
+    nav { font-size: 1rem; }
+    
+   
 }
 
 /* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { ... }
+@media (max-width: 992px) { 
+    h1 { font-size: 5rem; }
+    section { padding-bottom: 3em; padding-left: 1em; padding-right: 1em; } 
+}
 
 /* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
+@media (min-width: 1400px) {
+   
 }
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {    
 }
 
-/* Extra large devices (large desktops)
-// No media query since the extra-large breakpoint has no upper bound on its width */
-
+/* Obscenely Larger Screens */
+@media screen and ( min-width: 1600px ) {
+	body { font-size: 18px; }
+}
