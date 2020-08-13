@@ -226,7 +226,7 @@ box-shadow: 4px 4px 14px #fff;
 
 #top h1 { padding-top 6em; }
 
-.card { background-size: cover; border: solid 4px #C141B2; padding: 0.25em; width: 580px; height: 330px; }
+.card { background-size: cover; border: solid 4px #C141B2; padding: 0.25em;}
 .card h3 { letter-spacing: rem; }
 
 /* animation by madebypaul.com */
@@ -261,6 +261,7 @@ box-shadow: 4px 4px 14px #fff;
     #top, #overview h3 { font-size: 1rem;}
     nav { font-size: 1rem; }
     
+
    
 }
 
