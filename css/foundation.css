@@ -246,8 +246,8 @@ textarea {
   margin: 0 auto; }
   @media print, screen and (min-width: 40em) {
     .grid-container {
-      padding-right: 0.9375rem;
-      padding-left: 0.9375rem; } }
+      padding-right: 10rem;
+      padding-left: 10rem; } }
   .grid-container.fluid {
     padding-right: 0.625rem;
     padding-left: 0.625rem;
