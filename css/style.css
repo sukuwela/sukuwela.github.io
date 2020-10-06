@@ -206,7 +206,7 @@ nav a:focus {
     margin: 0em;
 }
 
-.header-img {
+.header-img, #about img {
     width: 100%;
     
 }
@@ -223,15 +223,17 @@ h3 { margin-top: 6em; margin-bottom: 1.5em; }
 
 section { padding-top: 6em; padding-bottom: 6em; }
 
+#profile-pic img { max-width: 450px;}
+#design-process-img img { max-width: 880px; margin: auto; display: block; }
+
 
 img, figcaption { margin: auto; max-width: 37.5rem; width: 100%; display: block; }
-img { border: 1px solid #d3d3d3; margin-top: 3em; }
+img { border: 1px solid #d3d3d3; margin-top: 3em;   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 figcaption { margin-bottom: 3em; }
 
 .tab { margin-left: 2.5em; }
 .doubletab { margin-left: 5em; }
 .tripletab { margin-left: 7.5em; }
-
 
 
 iframe {
@@ -258,12 +260,14 @@ box-shadow: 4px 4px 14px #fff;
 .card:hover { font-weight: 700; letter-spacing: 0.3px; color: #C141B2; border: solid 8px #C141B2; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; transition: all .5s ease-in-out; }
 .icon-link:hover { color: #fff; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; transition: all .5s ease-in-out; }
 
+img:hover {  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5); }
+ #about img, #hero-img img:hover, #hero-img img { box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.5); margin-bottom: 1em;}
 
 
 /* #work article:hover { background: #ffffff;  box-shadow: 0 2px 30px 2px hsla(5,5%,5%,.2); }*/
 
 /*Index*/
-#about img { align-content: center; padding-bottom: 2em; border: 0px; max-height: 40%; max-width: 40%; }
+
 #speaks img { max-height: 100%; max-width: 100%; }
 
 
