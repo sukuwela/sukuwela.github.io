@@ -284,9 +284,9 @@ img:hover {  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0,
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) { 
-    .work-h1, h1 { font-size: 2.5rem; }
-    h2 { font-size: 2rem; }
-    #top, #overview h3 { font-size: 1rem;}
+    .work-h1, h1 { font-size: 2.3rem; }
+    h2 { font-size: 1.8rem; }
+    #top, #overview h3 { font-size: .8rem;}
     nav { font-size: 1rem; }
     
 
@@ -295,8 +295,8 @@ img:hover {  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0,
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 992px) { 
-    .work-h1, h1 { font-size: 5rem; }
-    h2 { font-size: 4rem; }
+    .work-h1, h1 { font-size: 4rem; }
+    h2 { font-size: 3rem; }
     section { padding-bottom: 3em; padding-left: 1em; padding-right: 1em; } 
 }
 
