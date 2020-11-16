@@ -140,6 +140,7 @@ nav a:focus {
 }
 
 
+
 /* @Layout */
 
 
@@ -175,6 +176,10 @@ nav a:focus {
 
 .purple-bg {
     background-color: #ada6f1;
+}
+
+.pink-bg {
+    background-color: #C141B2;
 }
 
 .pink-border {
@@ -213,8 +218,6 @@ nav a:focus {
 
 
 
-#top { padding-top: 16.5em; padding-bottom: 17em; }
-
 nav ul { list-style-type: none; position: absolute; margin: 0; top: 0em; left: 0em; right: 0em; }
 nav ul li { padding: 0.5em 2em; display: inline-block;  }
 
@@ -228,7 +231,7 @@ section { padding-top: 6em; padding-bottom: 6em; }
 
 
 img, figcaption { margin: auto; max-width: 37.5rem; width: 100%; display: block; }
-img { border: 1px solid #d3d3d3; margin-top: 3em;   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+img { border: 1px solid #d3d3d3; margin-top: 3em; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 figcaption { margin-bottom: 3em; }
 
 .tab { margin-left: 2.5em; }
@@ -251,17 +254,38 @@ box-shadow: 4px 4px 14px #fff;
 
 #top h1 { padding-top 6em; }
 
-.card { background-size: cover; border: solid 4px #C141B2; padding: 0.25em;}
-.card h3 { letter-spacing: rem; }
+
+.card-section {
+    padding: 2em;
+    padding-top: 0em;
+}
+
+.image {
+    background-color: #676FC6; 
+    padding: 2em;
+}
+
+.card:hover img {
+    background-color: #C141B2;
+}
+
+.card:hover h3, .card:hover p {
+    color: #C141B2;
+}
+
 
 /* animation by madebypaul.com */
-.card-section:hover { font-size: 1.5rem; }
+/*.card-section:hover { font-size: 1.5rem; }
 
 .card:hover { font-weight: 700; letter-spacing: 0.3px; color: #C141B2; border: solid 8px #C141B2; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; transition: all .5s ease-in-out; }
-.icon-link:hover { color: #fff; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; transition: all .5s ease-in-out; }
+.icon-link:hover { color: #fff; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; transition: all .5s ease-in-out; }*/
 
 img:hover {  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5); }
- #about img, #hero-img img:hover, #hero-img img { box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.5); margin-bottom: 1em;}
+ #about img, #hero-img img:hover, #hero-img img, #work img { box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.5); margin-bottom: 1em;}
+
+#work img { margin-top: 0; }
+#work img:hover {box-shadow: 0; }
+
 
 
 /* #work article:hover { background: #ffffff;  box-shadow: 0 2px 30px 2px hsla(5,5%,5%,.2); }*/
